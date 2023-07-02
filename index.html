@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario.Mentoria</title>
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header>
+      <h1>Mentoria</h1>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+    </header>
+    <div class="page">
+      <form id="form">
+      <filtset>
+        <legend class="titles" id="legend-pessoais">INFORMAÇÕES PESSOAIS</legend>
+          <div class="name-surname ">
+            <div class="input-name">
+              <label for="name">Nome</label>
+              <input type="text" required class="input-pattern" id="name">
+            </div>
+            <div class="input-surname">
+              <label for="surname">Sobrenome</label>
+              <input type="text" class="input-pattern" id="surname">
+            </div>
+          </div>
+
+          <div class="email">
+            <label for="email">Email <span>(digite um email válido)</span></label>
+            <input type="email" required class="input-pattern" id="email">
+          </div>
+
+          <div class="password">
+            <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+            <input type="password" required minlength="6" class="input-pattern" id="password">
+          </div>
+
+      </filtset>
+
+      
+      <filtset>
+        <legend class="titles">INFORMAÇÕES DO MENTOR</legend>
+          <div class="name-mentor">
+            <label for="name-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="text" required class="input-pattern" id="name-mentor">
+          </div>
+      </filtset>
+
+      
+      <filtset>
+        <legend class="titles">SEUS HORÁRIOS DISPONÍVEIS</legend>
+
+        <legend class="teste">PRIMEIRA MENTORIA</legend>
+        <div class="one-time">
+
+          <div class="date-mentor">
+            <label for="date-mentor">Data  <span>(DD/MM/AAAA)</span></label>
+            <input type="date" class="input-pattern" id="date-mentor">
+          </div>
+
+          <div class="time-one-mentor">
+            <label for="time-one-mentor">Das</label>
+            <input type="time" class="input-pattern"
+            id="time-one-mentor">
+          </div>
+
+          <div class="time-two-mentor">
+            <label for="time-two-mentor">Até</label>
+            <input type="time" class="input-pattern" id="time-two-mentor">
+          </div>
+        </div>
+
+        <legend class="teste">SEGUNDO MENTORIA</legend>
+        <div class="two-time">
+          <div class="date-mentor-2">
+            <label for="date-mentor-2">Data  <span>(DD/MM/AAAA)</span></label>
+            <input type="date" class="input-pattern" id="date-mentor-2">
+          </div>
+
+          <div class="time-one-mentor-2">
+            <label for="time-one-mentor-2">Das</label>
+            <input type="time" class="input-pattern"
+            id="time-one-mentor-2">
+          </div>
+
+          <div class="time-two-mentor-2">
+            <label for="time-two-mentor-2">Até</label>
+            <input type="time" class="input-pattern" id="time-two-mentor-2">
+          </div>
+
+        </div>
+        </div>
+      </filtset>
+      </form>
+    <footer>
+      <button type="submit" form="form">SALVAR</button>
+    </footer>
+  </div>
+</body>
+</html>

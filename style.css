@@ -1,0 +1,243 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color:#EFEFEF;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  background: #535971;
+  height: 430px;
+  z-index: -1;
+  position: fixed;
+}
+
+/* COMEÇO HEADER */
+
+header {
+  padding-top: 140px;
+  width: 850px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+  padding-left: 0;
+}
+
+header h1 {
+  color: #FFF;
+  font-size: 48px;
+  font-family: 'Staatliches', cursive;
+  margin-bottom: 18px;
+}
+
+header p {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  width: 417px;
+}
+
+/* FIM HEADER */
+
+/* CONF do FILTSET E LEGEND */
+
+/* FIM */
+
+legend {
+  padding-bottom: 16px;
+  margin-bottom: 38px;
+}
+
+/* INICIO INPUT DE NOME E SOBRENOME */
+
+.name-surname {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 16px;
+}
+
+.input-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-name, .name-surname label {
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.input-surname {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* FIM INPUT NOME E SOBRENOME */
+
+/* INICIO INPUT EMAIL */
+
+.email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.email label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+/* FIM EMAIL */
+
+
+/* INICIO INPUT SENHA */
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.password label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+/* FIM SENHA */
+
+
+/* NOME DO MENTOR */
+.name-mentor {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.name-mentor label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+/* FIM */
+
+
+.teste {
+  color: #535971;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  line-height: 34px;
+  border: 0;
+  padding: 0 0 8px 0;
+  margin: 0;
+}
+
+.one-time, .two-time  {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.two-time {
+  margin: 0;
+}
+
+.date-mentor, .date-mentor-2, .time-one-mentor, .time-one-mentor-2, .time-two-mentor, .time-two-mentor-2  {
+  display: flex;
+  flex-direction: column;
+}
+
+.date-mentor, .date-mentor-2 {
+  margin-right: 32px;
+  width: 40%;
+}
+
+.date-mentor label {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+}
+
+.time-one-mentor, .time-one-mentor-2 {
+  margin-right: 10px;
+  width: 30%;
+}
+
+.time-two-mentor, .time-two-mentor-2 {
+  width: 30%;
+}
+
+
+
+label {
+  padding-bottom: 8px;
+  color: #4E4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+input {
+  padding-left: 22px;
+  font-size: 17px;
+}
+
+span {
+  color: #C1BCCC;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.input-pattern {
+  border-radius: 8px;
+  border: 1px solid #E6E6F0;
+  background: #FAFAFC;
+  height: 56px;
+}
+
+
+.titles {
+  color: #535971;
+  font-size: 24px;
+  font-family: 'Staatliches', cursive;
+  line-height: 34px;
+  font-weight: 400;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+}
+
+
+.page {
+  padding: 50px;
+  width: 750px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer {
+  width: 850px;
+  margin: 0 auto;
+  height: 160px;
+  background-color: #535971;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 366px  ;
+}
+
+footer button {
+  padding: 14px 279px;
+  border-radius: 20px;
+  background-color: #FF5374;
+  color: #FFF;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  line-height: 26px;
+  border: 0;
+}
